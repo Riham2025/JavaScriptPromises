@@ -51,3 +51,23 @@ const myPromise = new Promise((resolve, reject) => {
         reject("Error occurred!");
     }
 });
+
+
+```
+
+     
+    
+resolve() → The Promise succeeded
+
+reject() → The Promise failed
+
+---
+
+🔥 Handling Promises (then, catch, finally)
+
+```
+myPromise
+  .then(result => console.log("Success:", result))
+  .catch(error => console.log("Error:", error))
+  .finally(() => console.log("Completed."));
+```
