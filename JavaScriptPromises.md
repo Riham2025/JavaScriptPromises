@@ -36,3 +36,18 @@ Every Promise has **three possible states**:
 Once a Promise changes from *Pending* → *Fulfilled/Rejected*, it never changes again.
 
 ---
+
+
+## 🛠 Creating a Promise
+
+```js
+const myPromise = new Promise((resolve, reject) => {
+    
+    let success = true;
+
+    if (success) {
+        resolve("Operation successful!");
+    } else {
+        reject("Error occurred!");
+    }
+});
