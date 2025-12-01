@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CodeLine\\Desktop\\codeline\\FrontEnd\\JavaScriptPromises\\JavaScriptPromises\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{945C36CE-DB82-4ED3-82A0-E718D6581A4E}|JavaScriptPromises.csproj|c:\\users\\codeline\\desktop\\codeline\\frontend\\javascriptpromises\\javascriptpromises\\javascriptpromises.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{945C36CE-DB82-4ED3-82A0-E718D6581A4E}|JavaScriptPromises.csproj|solutionrelative:javascriptpromises.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JavaScriptPromises.md",
+              "DocumentMoniker": "C:\\Users\\CodeLine\\Desktop\\codeline\\FrontEnd\\JavaScriptPromises\\JavaScriptPromises\\JavaScriptPromises.md",
+              "RelativeDocumentMoniker": "JavaScriptPromises.md",
+              "ToolTip": "C:\\Users\\CodeLine\\Desktop\\codeline\\FrontEnd\\JavaScriptPromises\\JavaScriptPromises\\JavaScriptPromises.md",
+              "RelativeToolTip": "JavaScriptPromises.md",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAuwFsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-01T06:18:57.324Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
