@@ -71,3 +71,37 @@ myPromise
   .catch(error => console.log("Error:", error))
   .finally(() => console.log("Completed."));
 ```
+
+| Method       | Runs When          |
+| ------------ | ------------------ |
+| `.then()`    | Promise fulfilled  |
+| `.catch()`   | Promise rejected   |
+| `.finally()` | Runs in every case |
+
+
+
+```
+let uploadVideo = new Promise((resolve, reject) => {
+    let completed;
+
+    // do some async operations....
+    completed = true;
+     //completed = false;
+
+    if (completed) {
+        resolve("Successfully Uploaded.");
+    }
+    else {
+        reject("Sorry, Failed !!!");
+    }
+});
+
+uploadVideo
+    .then(msg => {
+        console.log("then is called: " + msg);
+    })
+    .catch(msg => {
+        console.log("catch is called: " + msg);
+    });
+
+    ```
