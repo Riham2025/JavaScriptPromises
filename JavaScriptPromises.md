@@ -16,3 +16,23 @@ Promises are mainly used for **asynchronous operations**,*, such as:
 | Time-based tasks | setTimeout() |
 | File handling | Loading images, reading files |
 | I/O operations | Database access |
+
+
+Instead of stopping code execution, JavaScript continues running and **fulfills** the promise later.
+
+---
+
+
+## 📍 Promise States
+
+Every Promise has **three possible states**:
+
+| State | Meaning |
+|---|---|
+| `Pending` | Promise still running & waiting |
+| `Fulfilled` | Operation completed successfully (`resolve`) |
+| `Rejected` | Operation failed (`reject`) |
+
+Once a Promise changes from *Pending* → *Fulfilled/Rejected*, it never changes again.
+
+---
